@@ -1,3 +1,5 @@
+[![Support Nevermore3D - Buy me a coffee](https://img.shields.io/badge/Support%20Nevermore3D%20-Buy%20me%20a%20coffee-orange.svg)](https://www.buymeacoffee.com/nevermore3d)
+
 # Nevermore Activated Carbon Filters - Micro Edition
 
 <div align="center">Nevermore Micro V5 Duo (dual fan)</div>
@@ -92,7 +94,7 @@ Well, the carbon in those filters mentioned above, costing a lot for little dura
 
 And with an enclosed chamber, you don't need the air flow of a room-size air purifier. Even a 350mm V2 Voron only holds about 5cf, meaning even a partial flow from a 5015 fan of 0.5-2cfm is enough to filter the fumes efficiently at the source.
 
-So what are we waiting for? We got lots of cheap carbon. We can replace is easily. We don't need high airflow to clean a small chamber. We deal with poor efficiency of one-pass carbon filters by multiplying the amount and recirculate the air.
+So what are we waiting for? We got lots of cheap carbon. We can replace it easily. We don't need high airflow to clean a small chamber. We deal with poor efficiency of one-pass carbon filters by multiplying the amount and recirculate the air.
 
 Enter, _The Nevermore_.
 
@@ -116,7 +118,7 @@ The V5 Duo also adds a 2nd additional 5015.
 
 _(Nevermore V5 Duo. used with permission from Tightwad(JT)#6055)_
 
-This repository hosts both versions, as they the same in design and function.
+This repository hosts both versions, as they are the same in design and function.
 
 # FAQs
 
@@ -175,9 +177,11 @@ See the BOM below for more details.
 
 You're ready to build a Nevermore Micro? Cool!
 
-> **_NOTE:_** MADE FOR ABS/PC/PETG - USE A DECENTLY HEAT RESISTANT FILAMENT !!
+> [!NOTE]  
+> MADE FOR ABS/PC/PETG - USE A DECENTLY HEAT RESISTANT FILAMENT !!
 
-> **_NOTE:_**: Since you are committing to fan dissection, be aware a 5015 used for a NM Micro will most likely never find a different purpose!
+> [!NOTE]  
+>  Since you are committing to fan dissection, be aware a 5015 used for a NM Micro will most likely never find a different purpose!
 
 ## SOURCING THE PROPER ACID-FREE CARBON
 
@@ -210,18 +214,7 @@ Finding carbon that fills all criteria is hard. Look around, ask suppliers about
 ## NEVERMORE 3D PRINTER CARBON
 **Nevermore offers its own premium carbon of unmatched specifications through selected voron resellers.** Its the best activated carbon for 3D printer use we have found after speaking to most major, vetted suppliers, offering benzene adsorbtion of up to 48 wt%, surface area of 1250 and CTC value of 80. It doesn't come cheap compared to bulk carbon from amazon, but its safe, has unbeatable performance, and every purchase supports the nevermore project by at least a dollar.  
 
-US: Fabreeko (www.fabreeko.com), DFH (https://deepfriedhero.in)
-
-EU: Fermio Labs (https://fermio.xyz), Lecktor (https://lecktor.com), VonWange (https://vonwange.com), Replimat Labs (https://www.replimat.eu/)
-
-UK: OneTwo3d (https://www.onetwo3d.co.uk), Printy Please (www.PrintyPlease.uk)
-
-ISR: Rav Meimad (https://www.ravmeimad.shop/)
-
-AU: Unique Prints (https://uniqueprints.shop), PhaserFPV (https://www.phaserfpv.com.au), DREMC (https://store.dremc.com.au/)
-
-
-...Or as direct sale from 0ndsk4#5933 (mainly for EU users, contact through discord) for those who wish to support the Nevermore project directly.
+[All Nevermore resellers here](https://github.com/nevermore3d/Reseller)
 
 ## BOM (V5)
 
@@ -230,10 +223,11 @@ AU: Unique Prints (https://uniqueprints.shop), PhaserFPV (https://www.phaserfpv.
   - GDStime 6000rpm Dual Ball bearing on Aliexpress (This is 12V rated fans)
   - Delta BFB0524HH (This is 24V rated fans)
   - Avoid mechatronics fans for this purpose.
-- 5x M3x0.5mm Heatset inserts (standard voron issue)
-  - 2 for seating plenum to base
-  - 2 for seating plenum lid to plenum
-- 8x 6x3mm cylindrical magnets
+- 6x M3, 5 mm OD, 4 mm height heatset inserts (standard voron issue)
+  - 1 in plenum base to secure plenum lid
+  - 1 in cartridge base to secure cartridge lide
+  - 4 in fans (2 in each fan × 2 fans)
+- 8x ⌀6x3 mm round magnets
 - 1x 2 pin JST header
 - 4x M3x16 BHCS
   - for heat inserts that go into the four fan tabs
@@ -265,10 +259,11 @@ Optional for Vorons or any printer using 24PSU
 - 1x 5015 blowers (rating above 200Pa / 20mmH2O / 1 inH2O)
   - Sunon Maglev MF5015VX (high speed version, 6000 rpm. The 5000 rpm might be okay also)
   - or, the $4-6 GDStime 6000rpm Dual Ball bearing on Aliexpress
-- 4x Heatset inserts (M3x0.5mm, standard voron issue)
+- 4x M3, 5mm OD, 4mm height Heatset inserts (standard voron issue)
   - 2 for seating plenum to base
   - 2 for seating plenum lid to plenum
-- 8x 4x6 mm or 6x3 cylindrical magnets
+- 8x ⌀4x6 mm or ⌀6x3 mm magnets
+  - Make sure to print correct parts (4x6 or 6x3 files)
 - 1x 2 pin JST header
 - 2x M3x10 SHCS
   - for seating plenum to base
@@ -290,7 +285,7 @@ Check out assembly images (**take note at how the fans are cut!**) here: [Neverm
 
 ### Instructions for V5
 
-_Coming soon... Similar to V4 though._ Do note that there as **built-in support** below the cartridge insert. This is meant to be easily removed by pushing or crushing (it's a single line wall). 
+Print pieces without supports. This goes for all Nevermore parts. Do note that there as **built-in support** below the cartridge insert. This is meant to be easily removed by pushing or crushing (it's a single line wall). 
 
 ### Instructions for V4
 
@@ -334,7 +329,7 @@ Distributed under GNU General Public License version 3.0 (GPLv3)
 
 ## Contact
 
-- Discord: 0ndsk4#5933 - (<https://discord.com/user/0ndsk4#5933>)
+- Discord: 0ndsk4 - (<https://discord.com/user/0ndsk4>)
 - Nevermore: [https://github.com/nevermore3d](https://github.com/nevermore3d)
 
 ## Acknowledgements
